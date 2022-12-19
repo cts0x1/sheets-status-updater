@@ -2,8 +2,10 @@
 ### The magical 16 lines that created the beauty of my ranked war helpers, now public.
 
 I've done what I can in adding comments to the script to explain what needs changing.
+
 ![image](https://user-images.githubusercontent.com/98242496/208478078-6ec5375d-2021-4ba1-add0-4f257c7da588.png)
 <sup>Lines 1-5 are the update on open and adding an update button to the script for the owner.</sup>
+
 
 Line 8 is simple enough. [facID] is the faction you are warring against or 'spying', whilst [apiKey] is just a standard API key that can view basic selections.
 
