@@ -1,7 +1,10 @@
 function onOpen(e) {
+  for(let i = 0; i < 6; i++) {  // runs function 6 times.
   var ui = SpreadsheetApp.getUi();
-  ui.createMenu('Update').addItem("Update", "Update").addToUi(); //Adds manual update button to the UI next to 'help'
-  Update();
+  ui.createMenu('Update').addItem("Update", "Update").addToUi(); //Adds an update button!
+  Update(e);
+  Utilities.sleep(10000); // sleep for 10 seconds
+  }
 }
 function Update() {
   var sheet = SpreadsheetApp.getActiveSheet();
