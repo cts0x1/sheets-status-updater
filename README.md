@@ -1,5 +1,5 @@
 # Sheets Status Updater
-### The magical 16 lines that created the beauty of my ranked war helpers, now public.
+### The magical 19 lines that created the beauty of my ranked war helpers, now public.
 
 I've done what I can in adding comments to the script to explain what needs changing.
 
